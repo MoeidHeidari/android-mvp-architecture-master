@@ -37,7 +37,6 @@ public class Splash extends BaseActivity implements SplashMvpView {
         Intent intent = new Intent(context, Splash.class);
         return intent;
     }
-
     /**
      * everything in this activity start here as an entry point
      *
