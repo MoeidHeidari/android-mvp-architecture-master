@@ -59,8 +59,6 @@ public class Splash extends BaseActivity implements SplashMvpView {
             e.printStackTrace();
         }
     }
-
-
     /**
      * @throws URISyntaxException
      * @author MoeidTopcoder
