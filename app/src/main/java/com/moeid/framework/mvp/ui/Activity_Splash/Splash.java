@@ -66,8 +66,7 @@ public class Splash extends BaseActivity implements SplashMvpView {
      */
     @Override
     protected void setUp() throws URISyntaxException {
-
-        // Initialize the splash onject to be represented
+        // Initialize the splash onject to be represented in the center of the screen
         new Splashy(this)
                 .setBackgroundColor("#B50540")
                 .setTitle("سنه آگرین")
@@ -79,8 +78,6 @@ public class Splash extends BaseActivity implements SplashMvpView {
                 .setLogo(R.drawable.snaagrin_icon)
                 .setTime(5000)
                 .show();
-
-
         //start the new activity after the splash ends with this listener
         Splashy.Companion.onComplete(new Splashy.OnComplete() {
             @Override
