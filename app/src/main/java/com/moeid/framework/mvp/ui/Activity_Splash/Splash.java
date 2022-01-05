@@ -21,14 +21,12 @@ import butterknife.ButterKnife;
  */
 
 public class Splash extends BaseActivity implements SplashMvpView {
-
     /**
      * @author MoeidTopcoder
      * inject a presenter of this activity for business logic purpose
      */
     @Inject
     SplashMvpPresenter<SplashMvpView> mPresenter;
-
     /**
      * @param context
      * @return static Intent
